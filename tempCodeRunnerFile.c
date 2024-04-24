@@ -1,0 +1,3 @@
+
+    {
+        remainder=ognumber%10;
