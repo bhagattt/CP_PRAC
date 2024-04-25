@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "UT.C": "cpp"
+        "UT.C": "cpp",
+        "stdio.h": "c"
     }
 }

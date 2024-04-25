@@ -11,16 +11,16 @@ float calmean(int m[10],int n)
 
 }
 
-int count(int m[10],int n,int mean)
-{ int count;
+int count(int m[10],int n,float mean)
+{ int counter=0;
    for(int i=0;i<n;i++)
    {
       if(m[i]<mean)
       {
-         count++;
+         counter++;
       }
    }
-   return count;
+   return counter;
 }
 int main()
 {int m[10],i,n;
@@ -32,5 +32,5 @@ int main()
 scanf("%d",&m[i]);
  }
  printf("Mean of this array is %f", calmean( m,n));
- printf("Count is %d",count(m,n));
+ printf("Count is %d",count(m,n, calmean( m,n)));
 }
