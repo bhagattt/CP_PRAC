@@ -6,7 +6,7 @@ int main()
     printf("Give 2 numbers \n");
     scanf("%d%d",&base,&exponent);
     result=power(base, exponent);
-    printf("GCD=%d",result);
+    printf("Square=%d",result);
 }
 
 int power(int base,int exponent)

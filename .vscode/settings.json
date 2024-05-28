@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "UT.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "PALIN_STRING.C": "cpp",
+        "palin_str.C": "cpp"
     }
 }

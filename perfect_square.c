@@ -2,15 +2,16 @@
 #include <math.h>
 int main()
 {
-    int root,n;
+    int a,root;
     double root1;
+
 printf("Enter the number \n");
-scanf("%d",&n);
-root1=sqrt(n);
-root=sqrt(n);
+scanf("%d",&a);
+root=sqrt(a);
+root1=sqrt(a);
 
 if(root1==root)
-printf("%d is a perfect s",n);
-else
-printf("IT aint");
+printf("YES");
+else 
+printf("NOOO");
 }

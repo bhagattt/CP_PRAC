@@ -1,15 +1,26 @@
-#include <stdio.h>
-int main()
-{
-    int num,reverse=0,d;
-    printf("Enter the num \n");
-    scanf("%d",&num);
+#include<stdio.h>
 
-    while(num>0)
+ int main()
+ {
+    int a,ognumber,result,d,reverse=0;
+    printf("Enter a number \n");
+    scanf("%d",&a);
+    a=ognumber;
+       while(a>0)
     {
-        d=num%10;
-        reverse=reverse * 10 +d;
-        num=num/10;
+        d=a%10;
+        reverse=reverse*10+d;
+        a=a/10;
+        
     }
-    printf("Rv %d",reverse);
+ 
+  if(reverse==ognumber)
+{
+    printf("Number is palin");
+
 }
+else{
+    printf("Nigga");
+
+}
+ }
